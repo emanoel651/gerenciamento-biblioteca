@@ -192,9 +192,16 @@ class BibliotecaApp:
             messagebox.showinfo("Consulta", "\n".join(resultados))
 
 
+"""
+Depois de fazer todas as verificações, colocar pra rodar
 
+BibliotecaApp, recebe root que executa todas a configuração da classe.
+"""
 
 root = tk.Tk()
 app = BibliotecaApp(root)
 
 root.mainloop()
+
+
+
