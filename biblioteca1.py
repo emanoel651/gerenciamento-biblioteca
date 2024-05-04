@@ -12,7 +12,7 @@ import tkinter as tk
 
 # importando uma funcionalidade da biblioteca chamado messagebox. Cria um alerta para que o usuário possa entender.
 from tkinter import messagebox
-
+#Importando modulos
 from usuario import Usuario
 from livro import Livro
 """
