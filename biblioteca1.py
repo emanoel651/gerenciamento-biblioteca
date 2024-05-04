@@ -13,7 +13,8 @@ import tkinter as tk
 # importando uma funcionalidade da biblioteca chamado messagebox. Cria um alerta para que o usuário possa entender.
 from tkinter import messagebox
 
-
+from usuario import Usuario
+from livro import Livro
 """
 Criando classe livro, Usuario e BibliotecaApp ( Nesta classe, faz todo o processo de cadastro de livro e usuario, emprestar livro,
                                                 devolver livro, ver se está dispinível.). Assim também já criando a interface com usuário.
@@ -21,21 +22,9 @@ Criando classe livro, Usuario e BibliotecaApp ( Nesta classe, faz todo o process
 """
 
 
-# Na classe Livro, solicitei as principais informações que o livro precisa.
-class Livro:
-    def __init__(self, titulo, autor, ano_publicacao, num_copias):
-        self.titulo = titulo
-        self.autor = autor
-        self.ano_publicacao = ano_publicacao
-        self.num_copias = num_copias
 
 
-# Aqui solicitei os dados que usuario precisa
-class Usuario:
-    def __init__(self, nome, identificacao, contato):
-        self.nome = nome
-        self.identificacao = identificacao
-        self.contato = contato
+
 
 #Criando a interface
 class BibliotecaApp:
